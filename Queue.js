@@ -25,8 +25,16 @@ class Queue {
 
   // Helper Methods
 
+  back() {
+    return this.#queue[this.#queue.length - 1]
+  }
+
   isEmpty() {
     return this.#queue.length === 0
+  }
+
+  isFull() {
+    return this.#queue.length === this.#capacity
   }
 
   display() {
