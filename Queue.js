@@ -2,7 +2,9 @@ class Queue {
   #capacity
   #queue = []
 
-  constructor(capacity = Infinity) {}
+  constructor(capacity = Infinity) {
+    this.#capacity = capacity
+  }
 
   // Fundamental Methods
 
