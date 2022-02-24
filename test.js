@@ -37,10 +37,16 @@ const findShortestStep = (source, destionation, n) => {
       if (isOnBoard([nextX, nextY], n)) {
         visited[nextX][nextY] = true
         knightMove[nextX][nextY] = knightMove[z[0]][z[1]] + 1
-        queue.enqueue([nextX, nextY])
+       queue.enqueue([nextX, nextY])
       }
     }
   }
 }
 
-console.log(findShortestStep([0, 0], [1, 1], 8))
+
+let source = [0, 0]
+let destination = [7, 7]
+let steps = findShortestStep(source, destination, 8)
+
+
+console.log(`\nThe Knight has to take ${steps} steps to go from point ${source} to point ${destination}.\n\n\n\n\n\n\n\n\n\n\n`)
