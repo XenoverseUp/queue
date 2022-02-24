@@ -2,9 +2,7 @@ class Queue {
   #capacity
   #queue = []
 
-  constructor({ capacity }) {
-    this.#capacity = capacity ?? Infinity
-  }
+  constructor(capacity = Infinity) {}
 
   // Fundamental Methods
 
@@ -27,6 +25,10 @@ class Queue {
 
   back() {
     return this.#queue[this.#queue.length - 1]
+  }
+
+  length() {
+    return this.#queue.length
   }
 
   isEmpty() {

@@ -1,16 +1,16 @@
 {
-	"name": "queue",
-	"version": "1.0.0",
-	"description": "",
-	"main": "test.js",
-	"type": "module",
-	"scripts": {
-		"test": "node test"
-	},
-	"repository": {
-		"type": "git",
-		"url": "XenoverseUp"
-	},
-	"author": "Can Durmus",
-	"license": "ISC"
+  "name": "queue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "type": "module",
+  "scripts": {
+    "start": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "XenoverseUp"
+  },
+  "author": "Can Durmus",
+  "license": "ISC"
 }
